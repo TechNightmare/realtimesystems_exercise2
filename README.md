@@ -25,15 +25,7 @@ Prozess Environment:
 
 Erstellen Sie ein Programm das interaktiv das Ändern bzw. Erfragen der EnvironmentVariablen
 ermöglicht.
----------------------
-Environment-List Menu
----------------------
-[1]: Print environment list
-[2]: Print environment entry (getenv)
-[3]: Add environment entry (putenv)
-[4]: Modify environment entry (setenv)
-[5]: Remove environment entry (unsetenv)
-[0]: End
+
 (Hinweis: Verwenden sie die Funktion readline() oder getline um Benutzereingaben
 einzulesen. In Ihrem Makefile können Sie die Bibliothek libreadline
 als Zutat -lreadline hinzufügen.)
